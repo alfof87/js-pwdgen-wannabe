@@ -1,3 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
-  background-color: red;
+  background-image: url(../img/gears.jpg);
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+
+}
+#password-gen{
+  height: 80px;
+  background-color: black;
+  border: 2px solid grey;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.gears .gears-1{
+  font-size: 150px;
+  color: #7f7f7a;
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  to{transform: rotate(360deg)}
+}
+.gears .gears-2{
+  font-size: 150px;
+  color: #7f7f7a;
+  animation: rotate 2s linear infinite;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
